@@ -1,0 +1,8 @@
+#gallery-container{
+    width: 100vw;
+    height: 100vh;
+}
+
+#gallery-container>div>div {
+    margin-bottom: 50px;
+}

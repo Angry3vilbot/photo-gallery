@@ -1,0 +1,42 @@
+#app{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+}
+
+footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 50px;
+    background-color: #242424;
+    color: white;
+}
+
+a, i{
+    width: 25px;
+    height: 25px;
+    margin-left: 0.5rem;
+}
+
+i{
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/GitHub_Invertocat_Logo.svg/640px-GitHub_Invertocat_Logo.svg.png");
+    background-size: contain;
+}
+
+i{
+    display: inline-block;
+}
+
+@media (prefers-color-scheme: light) {
+    footer{
+        background-color: #ffffff;
+        color: black;
+    }
+  }
