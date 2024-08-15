@@ -25,7 +25,7 @@ jobs:
 
     - name: Commit ZIP Archive
       run: |
-        mv my-archive.zip ./  # Move the ZIP to desired location in the repo
+        mv content.zip ./  # Move the ZIP to desired location in the repo
         git add content.zip
         git commit -m "Update ZIP archive"
         git push
