@@ -13,7 +13,7 @@ function App() {
       <footer>
         <p>© Angry3vilbot</p>
         <a href='https://github.com/Angry3vilbot/photo-gallery' target='#blank'><i></i></a>
-        <a href="https://github.com/Angry3vilbot/photo-gallery/raw/main/content.zip"><button>Загрузить весь контент</button></a>
+        <a href="https://drive.google.com/file/d/11AMLkPy_teCPryGzhEXYWemd1lh_UvJy/view?usp=sharing"><button>Загрузить весь контент</button></a>
       </footer>
     </div>
   )
