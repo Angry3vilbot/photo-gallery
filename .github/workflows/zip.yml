@@ -19,12 +19,18 @@ jobs:
         git config --global user.name "github-actions[bot]"
         git config --global user.email "github-actions[bot]@users.noreply.github.com"
 
+    - name: Install Git LFS
+      run: |
+        git lfs install
+
     - name: Create ZIP Archive
       run: |
         zip -r content.zip public/images/*
 
-    - name: Commit ZIP Archive
+    - name: Track ZIP file with LFS
       run: |
+        git lfs track "content.zip"
+        git add .gitattributes
         git add content.zip
-        git commit -m "Update ZIP archive"
+        git commit -m "Track content.zip with LFS"
         git push
